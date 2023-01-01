@@ -1,0 +1,89 @@
+html{
+    scroll-behavior: smooth;
+    background-color: #1c2025;
+}
+.Menu{
+    list-style-type: none;
+    background-color: bisque;
+    border-radius: 10px;
+    width: 300px;
+    margin: auto;
+}
+li{
+    display: inline;
+    list-style: none;    
+    margin: 3px;
+    
+}
+.headline{
+    background-color: bisque;
+    padding:6px 6px;
+    margin: 3px ;
+    border-radius: 8px;
+    width: 50px;       
+}
+li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    
+}
+#section1{
+    width: 100%;
+    height: 900px;
+    margin: auto;
+    text-align: center;
+    font-size:  32px;
+    font-weight: bolder;
+    font-family:"Montserrat",sans-serif,'Times New Roman', Times, serif;
+    color: bisque;
+    /*border:2px wheat solid;*/
+    
+    
+}
+#section1 img{
+    width: 700px;
+    height: 696px;
+    margin: auto;
+    display: flex;
+}
+#section2{
+    width: 100%;
+    height: 1000px;
+    background-color: #39434b;
+    border-radius: 25px;
+    color: whitesmoke;
+    border:1px wheat solid;
+    
+}
+#section3{
+    width: 100%;
+    height: 1000px;
+    border-radius: 25px;
+    /*border:1px wheat solid;*/
+    color: whitesmoke;
+    align-content: space-between;
+}
+#section4{
+    width: 100%;
+    height: 1000px;
+    background-color: #39434b;
+    border-radius: 25px;
+    border:1px whitesmoke solid;
+    color: whitesmoke;
+}
+h1{
+    color: bisque;
+}
+details summary{
+    /*list-style-type: none;*/
+    background-color: bisque;
+    margin: 10px;
+    color: black;
+    display: flex;
+    /*align-items: center;*/
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    
+}
